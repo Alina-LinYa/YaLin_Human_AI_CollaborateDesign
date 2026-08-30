@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display&family=Instrument+Serif:ital@0;1&family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #111111;
+  background: #f4f4f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #111111;
+  --paper: #ffffff;
+  --mint: #5ddfce;
+  --blue: #7352ff;
+  --yellow: #ffc936;
+  --coral: #f34ddd;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { width: 100%; min-width: 320px; min-height: 100%; margin: 0; }
+body { overflow: hidden; }
+button { font: inherit; }
+button:focus-visible { outline: 2px solid var(--mint); outline-offset: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
