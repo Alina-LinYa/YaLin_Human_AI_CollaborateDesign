@@ -22,8 +22,8 @@
 .dark-veil { position: absolute; inset: 0; width: 100%; height: 100%; }
 .slide-1::after { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px); background-size: 52px 52px; mask-image: linear-gradient(to bottom, transparent, #000 60%, transparent); pointer-events: none; }
 .title-lockup { position: absolute; left: clamp(34px, 8vw, 120px); bottom: clamp(58px, 11vh, 150px); z-index: 2; max-width: min(1000px, 80vw); }
-.title-lockup h1 { color: white; font-size: clamp(50px, 8.6vw, 132px); line-height: .86; max-width: 1050px; margin: 28px 0 24px; font-weight: 500; letter-spacing: 0; }
-.title-lockup h1 span { color: transparent; -webkit-text-stroke: 1px rgba(255,255,255,.55); }
+.title-lockup h1 { color: white; font-size: clamp(50px, 8.6vw, 132px); line-height: .78; max-width: 1050px; margin: 18px 0 24px; font-weight: 500; letter-spacing: 0; }
+.title-lockup h1 span { display: block; color: transparent; -webkit-text-stroke: 1px rgba(255,255,255,.55); margin-top: 5px; transform: translateY(2px); }
 .title-lockup p { color: var(--mint); font: italic clamp(31px, 5vw, 70px)/1 'Instrument Serif', Georgia, serif; margin: 0; }
 .title-index { position: absolute; z-index: 2; top: 42px; right: 48px; color: rgba(255,255,255,.5); font: 11px 'Space Mono', monospace; }
 .slide-2 { display: flex; flex-direction: column; justify-content: center; }
